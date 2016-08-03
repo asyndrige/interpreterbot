@@ -100,6 +100,3 @@ func help(args []string) string {
 	return res
 }
 
-// func randomNews(_ []string) string {
-
-// }

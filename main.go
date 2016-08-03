@@ -38,3 +38,4 @@ func main() {
 	http.HandleFunc("/", httpRestrict(indexHandler, []string{"POST"}))
 	http.ListenAndServe(":"+port, nil)
 }
+
