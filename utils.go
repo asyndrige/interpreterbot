@@ -24,4 +24,3 @@ func checkErr(err error) {
 		log.Println(err)
 	}
 }
-
